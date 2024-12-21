@@ -1,0 +1,57 @@
+.services {
+  width: 60%;
+  margin: 60px auto;
+  background-color: transparent;
+  margin-left: 1rem;
+  text-align: left; /* Align text-based content to the left */
+}
+
+h2 {
+  font-size: 1.25rem;
+  color: white;
+}
+
+h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+  color: white;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.stats {
+  display: flex;
+  align-items: flex-start; /* Align items to the top-left */
+  justify-content: flex-start; /* Align the stats section to the left */
+  gap: 30px; /* Add spacing between stats */
+}
+
+.stats > div {
+  text-align: left; /* Ensure each stat's content is aligned to the left */
+}
+
+.stats h2 {
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.stats h3 {
+  font-size: 1.5rem;
+  color: white;
+}

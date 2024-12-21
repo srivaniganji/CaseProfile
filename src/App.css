@@ -1,0 +1,31 @@
+.App {
+  font-family: Arial, sans-serif;
+  background-image: url('./background.jpeg');
+  background-repeat:repeat;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.content {
+  display: flex;
+  flex-direction: column; 
+  gap: 20px; 
+  padding: 20px;
+}
+
+@media (min-width: 768px) {
+  .content {
+    flex-direction: row; 
+    justify-content: space-between; 
+    gap: 40px; 
+  }
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column-reverse; 
+    gap: 20px; 
+  }
+}
